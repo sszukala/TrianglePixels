@@ -42,6 +42,15 @@ The results obtained from the experiments are compared and analyzed to determine
 * **Memory Efficiency:** The student model (triangle pixel) demonstrates significantly reduced memory footprint compared to the teacher model (square pixel) due to its smaller architecture.
 * **Visual Perception:** The student model's performance on the FashionMNIST and CIFAR-10 datasets, though slightly lower in terms of accuracy, indicates the potential of triangle pixels in learning discriminative features.
 * **Batch Processing:** Triangle Pixel Model shows faster batch processing time in comparison to Square Pixel Model.
+* The TPM uses triangle pixels instead of traditional square pixels to achieve better efficiency and performance compared to conventional CNNs.
+
+Here are some key points about the TPM:
+
+Triangle Pixel Structure: The TPM splits each square pixel into two triangles using a custom layer called TrianglePixelSplitter. This creates a more detailed representation of the image.
+Efficient Architecture: The TPM is designed to be more efficient than conventional CNNs by reducing the number of parameters and computations. A smaller student model (StudentNet) is trained with knowledge distillation from a larger teacher model (Net).
+Improved Visual Perception: The triangle pixel structure enhances the model's ability to perceive edges and contours, leading to better performance on image classification tasks.
+Memory Efficiency: The TPM uses fewer parameters, resulting in lower memory usage compared to conventional CNNs.
+The code includes experiments on two datasets: FashionMNIST and CIFAR-10. The results demonstrate that the TPM achieves comparable or better accuracy with significantly lower memory usage and faster inference time.
 
 ## Conclusion and Future Work
 
@@ -62,5 +71,5 @@ If you'd like to contribute to this project, please feel free to fork the reposi
 This project is licensed under the MIT License.
 
 ## Contact
-
+Its my Birthday! Yeah me. I am tired, you are getting this as is. 
 For any inquiries, please contact [sszukala@gmail.com].
