@@ -47,9 +47,13 @@ The results obtained from the experiments are compared and analyzed to determine
 Here are some key points about the TPM:
 
 Triangle Pixel Structure: The TPM splits each square pixel into two triangles using a custom layer called TrianglePixelSplitter. This creates a more detailed representation of the image.
+
 Efficient Architecture: The TPM is designed to be more efficient than conventional CNNs by reducing the number of parameters and computations. A smaller student model (StudentNet) is trained with knowledge distillation from a larger teacher model (Net).
+
 Improved Visual Perception: The triangle pixel structure enhances the model's ability to perceive edges and contours, leading to better performance on image classification tasks.
+
 Memory Efficiency: The TPM uses fewer parameters, resulting in lower memory usage compared to conventional CNNs.
+
 The code includes experiments on two datasets: FashionMNIST and CIFAR-10. The results demonstrate that the TPM achieves comparable or better accuracy with significantly lower memory usage and faster inference time.
 
 ## Conclusion and Future Work
