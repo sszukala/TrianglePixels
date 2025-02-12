@@ -56,6 +56,27 @@ Memory Efficiency: The TPM uses fewer parameters, resulting in lower memory usag
 
 The code includes experiments on two datasets: FashionMNIST and CIFAR-10. The results demonstrate that the TPM achieves comparable or better accuracy with significantly lower memory usage and faster inference time.
 
+The Triangle Pixel Model (TPM) and its benefits in terms of memory efficiency, visual perception, and computational performance can be applied to various real-life systems where image classification is a crucial task. Some potential applications include:
+
+Embedded Systems: The TPM's ability to reduce memory usage makes it an attractive solution for embedded systems, such as:
+Smart home devices (e.g., security cameras, doorbells)
+Wearable devices (e.g., fitness trackers, smartwatches)
+Autonomous vehicles (e.g., navigation systems, object detection)
+
+Edge Computing: The TPM's efficiency in terms of computational performance and memory usage makes it suitable for edge computing applications:
+IoT devices (e.g., sensors, actuators) that require real-time processing
+Smart cities infrastructure (e.g., traffic management, public safety)
+Real-Time Systems: The TPM's ability to process images in real-time can be applied to various systems:
+Surveillance systems (e.g., monitoring, object detection)
+Medical imaging systems (e.g., image processing, disease diagnosis)
+Robotics and Autonomous Systems: The TPM's visual perception capabilities make it suitable for robotics and autonomous systems:
+Robotics (e.g., object recognition, navigation)
+Drones and unmanned aerial vehicles (UAVs) (e.g., object detection, tracking)
+Mobile Devices: The TPM's efficiency in terms of memory usage and computational performance can be applied to mobile devices:
+Smartphones (e.g., image processing, object recognition)
+Tablets and laptops (e.g., image editing, object detection)
+These are just a few examples of the many potential applications of the Triangle Pixel Model. The TPM's benefits in terms of memory efficiency, visual perception, and computational performance make it an attractive solution for various real-life systems where image classification is a crucial task.
+
 ## Conclusion and Future Work
 
 The results highlight the trade-offs between memory efficiency, visual perception, and computational performance when using triangle pixels instead of traditional square pixels in CNNs. Future work might involve exploring more complex image datasets, optimizing the triangle pixel model architecture, and investigating potential benefits for real-world applications such as edge devices or embedded systems where memory constraints are a significant consideration.
