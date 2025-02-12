@@ -91,7 +91,7 @@ The results highlight the trade-offs between memory efficiency, visual perceptio
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/triangle-pixel-model.git`
+1. Clone the repository: `git clone (https://github.com/sszukala/TrianglePixels)`
 2. Install necessary packages: `pip install torchvision tqdm scipy scikit-learn psutil`
 3. Run the notebook: `jupyter notebook`
 
