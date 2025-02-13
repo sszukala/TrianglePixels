@@ -105,4 +105,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 Its my Birthday! Yeah me. I am tired, you are getting this as is. 
-For any inquiries, please contact [sszukala@gmail.com].
+For any inquiries, please contact [sszukala at gmail.com].
